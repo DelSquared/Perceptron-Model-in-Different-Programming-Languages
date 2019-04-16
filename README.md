@@ -5,10 +5,10 @@ Perceptron Model in Different Programming Languages
 
 This repository is mainly intended for educational/recreational purposes by providing example-code of a perceptron model implemented in multiple programming languages.
 
-Currently available languages:
+### Currently available languages:
 - Python(Numpy)
 
-Future additions:
+### Future additions:
 - Python(Keras)
 - Python(Tensorflow)
 - Javascript(NodeJS)
