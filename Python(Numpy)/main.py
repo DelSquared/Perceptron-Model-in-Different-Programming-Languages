@@ -12,9 +12,12 @@ class Perceptron:
     return 1/(1+np.exp(-(np.matmul(x,self.w)+self.b)))
   
   def Train(self,x,y,epochs,dt):
+    print("\nTraining for {} epochs...".format(epochs))
     for _ in range(epochs):
       self.w += np.sum((y-self.Eval(x))*(self.Eval(x)-self.Eval(x)*self.Eval(x))*x)*dt
       self.b += np.sum((y-self.Eval(x))*(self.Eval(x)-self.Eval(x)*self.Eval(x)))*dt
+      if _%10000==0:
+        print("Progress: {}% ... Error: {}".format(_*100/epochs,np.sum((y-self.Eval(x))*(y-self.Eval(x)))))
   
   def Error(self,x,y):
     print("\nError: {}".format(np.sum((y-self.Eval(x))*(y-self.Eval(x)))))
@@ -29,8 +32,8 @@ class Perceptron:
 p = Perceptron(len(x[0]), 1)
 p.PrintWeights()
 print("\nPre-training\n")
-print(p1.Eval(x))
-p.Train(x,y,10000,0.001)
+print(p.Eval(x))
+p.Train(x,y,100000,0.001)
 print("\nPost-training\n")
-print(p1.Eval(x))
+print(p.Eval(x))
 p.Error(x,y)
