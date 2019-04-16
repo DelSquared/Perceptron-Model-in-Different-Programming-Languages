@@ -18,6 +18,7 @@ This repository is mainly intended for educational/recreational purposes by prov
 - C#
 - C/C++/CUDA
 - Rust (Maybe?)
+- LuaC++
 
 ## Outputs
 
