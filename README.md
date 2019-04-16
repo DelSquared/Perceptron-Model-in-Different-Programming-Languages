@@ -1,6 +1,24 @@
 # Perceptron-Model-in-Different-Programming-Languages
 Perceptron Model in Different Programming Languages
 
+## Description
+
+This repository is mainly intended for educational/recreational purposes by providing example-code of a perceptron model implemented in multiple programming languages.
+
+Currently available languages:
+- Python(Numpy)
+
+Future additions:
+- Python(Keras)
+- Python(Tensorflow)
+- Javascript(NodeJS)
+- Javascript(p5JS)
+- Java
+- Lua
+- C#
+- C/C++/CUDA
+- Rust (Maybe?)
+
 ## Outputs
 
 ### Python(Numpy)
@@ -14,7 +32,6 @@ Weights:
 Biases:
 
 [[0.75214673]]
-
 
 
 Pre-training
