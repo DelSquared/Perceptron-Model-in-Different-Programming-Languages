@@ -7,9 +7,9 @@ This repository is mainly intended for educational/recreational purposes by prov
 
 ### Currently available languages:
 - Python(Numpy)
+- Python(Keras)
 
 ### Future additions:
-- Python(Keras)
 - Python(Tensorflow)
 - Javascript(NodeJS)
 - Javascript(p5JS)
@@ -62,4 +62,48 @@ Post-training
  [0.80002344]]
 
 Error: 0.10262249959544203
+```
+
+### Python(Keras)
+
+```
+Epoch 1/100000
+4/4 [==============================] - 0s 67ms/sample - loss: 0.2694 - acc: 0.5000
+Epoch 2/100000
+4/4 [==============================] - 0s 1ms/sample - loss: 0.2691 - acc: 0.5000
+Epoch 3/100000
+4/4 [==============================] - 0s 713us/sample - loss:0.2687 - acc: 0.5000
+Epoch 4/100000
+4/4 [==============================] - 0s 970us/sample - loss:0.2684 - acc: 0.5000
+Epoch 5/100000
+4/4 [==============================] - 0s 640us/sample - loss:0.2680 - acc: 0.5000
+Epoch 6/100000
+4/4 [==============================] - 0s 643us/sample - loss:0.2677 - acc: 0.5000
+Epoch 7/100000
+4/4 [==============================] - 0s 756us/sample - loss:0.2674 - acc: 0.5000
+Epoch 8/100000
+4/4 [==============================] - 0s 739us/sample - loss:0.2670 - acc: 0.5000
+Epoch 9/100000
+4/4 [==============================] - 0s 710us/sample - loss:0.2667 - acc: 0.5000
+Epoch 10/100000
+4/4 [==============================] - 0s 625us/sample - loss:0.2663 - acc: 0.5000
+
+...
+
+Epoch 99995/100000
+4/4 [==============================] - 0s 265us/sample - loss:0.0057 - acc: 1.0000
+Epoch 99996/100000
+4/4 [==============================] - 0s 285us/sample - loss:0.0057 - acc: 1.0000
+Epoch 99997/100000
+4/4 [==============================] - 0s 339us/sample - loss:0.0057 - acc: 1.0000
+Epoch 99998/100000
+4/4 [==============================] - 0s 302us/sample - loss:0.0057 - acc: 1.0000
+Epoch 99999/100000
+4/4 [==============================] - 0s 448us/sample - loss:0.0057 - acc: 1.0000
+Epoch 100000/100000
+4/4 [==============================] - 0s 348us/sample - loss:0.0057 - acc: 1.0000
+[[8.4083923e-04]
+ [8.1297390e-02]
+ [8.1297427e-02]
+ [9.0296149e-01]]
 ```
