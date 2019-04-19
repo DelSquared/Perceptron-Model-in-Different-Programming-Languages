@@ -8,9 +8,9 @@ This repository is mainly intended for educational/recreational purposes by prov
 ### Currently available languages:
 - Python(Numpy)
 - Python(Keras)
+- Python(Tensorflow)
 
 ### Future additions:
-- Python(Tensorflow)
 - Javascript(NodeJS)
 - Javascript(p5JS)
 - Java
@@ -106,4 +106,28 @@ Epoch 100000/100000
  [8.1297390e-02]
  [8.1297427e-02]
  [9.0296149e-01]]
+```
+
+### Python(Tensorflow)
+
+```
+Epoch(%):  0.0 %    loss:  0.33210212
+Epoch(%):  10.0 %    loss:  0.015254875
+Epoch(%):  20.0 %    loss:  0.0068163867
+Epoch(%):  30.0 %    loss:  0.0042989245
+Epoch(%):  40.0 %    loss:  0.003116064
+Epoch(%):  50.0 %    loss:  0.002434728
+Epoch(%):  60.0 %    loss:  0.0019938578
+Epoch(%):  70.0 %    loss:  0.001685899
+Epoch(%):  80.0 %    loss:  0.0014588995
+Epoch(%):  90.0 %    loss:  0.0012851977
+Epoch(%):  100.0 %    loss:  0.0011477593
+
+Elapsed time  30.536971328793644
+________________________________________________________________________________
+
+  [0.03386783]
+  [0.03388705]
+  [0.03387891]
+  [0.9661194]
 ```
