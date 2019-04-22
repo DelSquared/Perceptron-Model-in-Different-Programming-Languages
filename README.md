@@ -9,11 +9,11 @@ This repository is mainly intended for educational/recreational purposes by prov
 - Python(Numpy)
 - Python(Keras)
 - Python(Tensorflow)
+- Java
 
 ### Future additions:
 - Javascript(NodeJS)
 - Javascript(p5JS)
-- Java
 - Lua
 - C#
 - C/C++/CUDA
@@ -130,4 +130,31 @@ ________________________________________________________________________________
   [0.03388705]
   [0.03387891]
   [0.9661194]
+```
+### Java
+```
+Pre-Training
+0.5348137280104677
+0.723578338386435
+0.7502927912229587
+0.8724698405926142
+
+Starting training for 10000000 epochs...
+Epoch(%): 0%, Error: 1.3884018373317462
+Epoch(%): 10%, Error: 0.010522028036657579
+Epoch(%): 20%, Error: 0.0049630849565218665
+Epoch(%): 30%, Error: 0.003218925932545704
+Epoch(%): 40%, Error: 0.0023740418311171464
+Epoch(%): 50%, Error: 0.0018773794404555915
+Epoch(%): 60%, Error: 0.0015510882572958048
+Epoch(%): 70%, Error: 0.0013206127992833052
+Epoch(%): 80%, Error: 0.0011492857031122742
+Epoch(%): 90%, Error: 0.001016999191696389
+Epoch(%): 99%, Error: 9.118158525567842E-4
+
+Post-Training
+5.474909704186176E-6
+0.016365370942308083
+0.016365386572161952
+0.9806050372816417
 ```
