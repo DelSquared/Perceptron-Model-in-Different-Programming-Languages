@@ -5,6 +5,8 @@ Perceptron Model in Different Programming Languages
 
 This repository is mainly intended for educational/recreational purposes by providing example-code of a perceptron model implemented in multiple programming languages.
 
+The example being considered is an AND gate emulation. This can be switched out to be any simple binary logic gate that's linearly separable (i.e. not XOR or NXOR) by changing the labels that are hard-coded to the desired gate. 
+
 ### Currently available languages:
 - Python(Numpy)
 - Python(Keras)
