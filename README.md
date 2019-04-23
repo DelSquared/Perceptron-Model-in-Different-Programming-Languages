@@ -13,9 +13,9 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Python(Tensorflow)
 - Java
 - Typescript
+- Javascript(NodeJS)
 
 ### Future additions:
-- Javascript(NodeJS)
 - Javascript(p5JS)
 - Lua
 - C#
@@ -181,4 +181,29 @@ Epoch(%): 90% ... Error: 0.00002841834265688727
 0.0050543214573224365
 0.005054319928508864
 0.9940167369413687
+```
+### NodeJS
+```
+Pre-Training
+0.6918047896906404
+0.6998179549852507
+0.7742769392294069
+0.7808251531875576
+
+Epoch(%): 0% ... Error: 0.4882705640615913
+Epoch(%): 10% ... Error: 0.0031066294620815537
+Epoch(%): 20% ... Error: 0.0014612005571914071
+Epoch(%): 30% ... Error: 0.0009469467937243809
+Epoch(%): 40% ... Error: 0.000698162821943197
+Epoch(%): 50% ... Error: 0.0005520079884997068
+Epoch(%): 60% ... Error: 0.0004560234209277485
+Epoch(%): 70% ... Error: 0.0003882400838516292
+Epoch(%): 80% ... Error: 0.000337859994030239
+Epoch(%): 90% ... Error: 0.00029896418624558594
+
+Post-Training
+0.000005481532567786762
+0.016371928302539418
+0.016371877905484358
+0.9805974566723038
 ```
