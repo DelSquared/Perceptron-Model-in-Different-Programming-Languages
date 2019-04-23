@@ -14,10 +14,10 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Java
 - Typescript
 - Javascript(NodeJS)
+- Lua
 
 ### Future additions:
 - Javascript(p5JS)
-- Lua
 - C#
 - C/C++/CUDA
 - Rust (Maybe?)
@@ -206,4 +206,27 @@ Post-Training
 0.016371928302539418
 0.016371877905484358
 0.9805974566723038
+```
+### Lua (5.1.5)
+```
+Pre-Training
+0.68634768291945
+0.76449478576855
+0.83524794042728
+0.88263985343676
+Epoch(%): 0%, Error: 0.46992565191389
+Epoch(%): 10%, Error: 6.0658760192174e-08
+Epoch(%): 20%, Error: 5.6186250023124e-09
+Epoch(%): 30%, Error: 1.4556711800043e-09
+Epoch(%): 40%, Error: 5.6686729161738e-10
+Epoch(%): 50%, Error: 2.7482642541124e-10
+Epoch(%): 60%, Error: 1.5277640500465e-10
+Epoch(%): 70%, Error: 9.3254877141364e-11
+Epoch(%): 80%, Error: 6.0925148702575e-11
+Epoch(%): 90%, Error: 4.1910761337228e-11
+Post-Training
+5.4792396891681e-06
+0.016369648481205
+0.016369701503219
+0.98060015144136
 ```
