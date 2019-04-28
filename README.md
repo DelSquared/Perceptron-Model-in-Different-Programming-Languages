@@ -15,12 +15,12 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Typescript
 - Javascript(NodeJS)
 - Lua
+- Rust
 
 ### Future additions:
 - Javascript(p5JS)
 - C#
 - C/C++/CUDA
-- Rust (Maybe?)
 - LuaC++
 
 ## Outputs
@@ -229,4 +229,30 @@ Post-Training
 0.016369648481205
 0.016369701503219
 0.98060015144136
+```
+### Rust
+```
+Pre-Training
+0.7310585786300049
+0.8807970779778823
+0.8807970779778823
+0.9525741268224334
+
+Epoch(%): 0% ... Error: 0.522014223238681
+Epoch(%): 10% ... Error: 0.0026408552351573234
+Epoch(%): 20% ... Error: 0.001243168518649312
+Epoch(%): 30% ... Error: 0.0008057578303075101
+Epoch(%): 40% ... Error: 0.000594074621917179
+Epoch(%): 50% ... Error: 0.00046970020535868696
+Epoch(%): 60% ... Error: 0.00038801591902687887
+Epoch(%): 70% ... Error: 0.0003303307068047589
+Epoch(%): 80% ... Error: 0.0002874563173784957
+Epoch(%): 90% ... Error: 0.0002543557209483691
+Epoch(%): 99% ... Error: 0.00022803931282502183
+
+Post-Training
+0.0000054780388623871445
+0.01636843253816961
+0.016368448176693976
+0.9806014036120793
 ```
