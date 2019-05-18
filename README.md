@@ -280,7 +280,7 @@ Epochs(%): 80.000000 ... Error: 0.001150
 Epochs(%): 90.000000 ... Error: 0.001018
 
 
-Pre-Training
+Post-Training
 0.000005
 0.016370
 0.016370
