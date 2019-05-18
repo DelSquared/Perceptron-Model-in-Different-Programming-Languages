@@ -16,11 +16,12 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Javascript(NodeJS)
 - Lua
 - Rust
+- C
 
 ### Future additions:
 - Javascript(p5JS)
 - C#
-- C/C++/CUDA
+- C++/CUDA
 - LuaC++
 
 ## Outputs
@@ -255,4 +256,33 @@ Post-Training
 0.01636843253816961
 0.016368448176693976
 0.9806014036120793
+```
+### C
+```
+Perceptron initialised
+
+Pre-Training
+0.685033
+0.840640
+0.761333
+0.885543
+
+Training initiated...
+Epochs(%): 0.000000 ... Error: 1.768322
+Epochs(%): 10.000000 ... Error: 0.010582
+Epochs(%): 20.000000 ... Error: 0.004977
+Epochs(%): 30.000000 ... Error: 0.003225
+Epochs(%): 40.000000 ... Error: 0.002377
+Epochs(%): 50.000000 ... Error: 0.001879
+Epochs(%): 60.000000 ... Error: 0.001552
+Epochs(%): 70.000000 ... Error: 0.001322
+Epochs(%): 80.000000 ... Error: 0.001150
+Epochs(%): 90.000000 ... Error: 0.001018
+
+
+Pre-Training
+0.000005
+0.016370
+0.016370
+0.980600
 ```
