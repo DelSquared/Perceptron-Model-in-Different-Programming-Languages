@@ -11,7 +11,7 @@ unsigned int verbosity = 1000000;
 
 //The perceptron will be defined such that it could be used in main.c as a sort of "object"
 
-//-----------------------------------------------------------------------------------------------
+//--------------------------------------------------
 typedef struct p1 Perceptron; 
 
 typedef double (*MethodDouble)(Perceptron* self, double x[2]);
@@ -24,7 +24,7 @@ struct p1 {
    MethodVoid Train; //placeholder for the Train() function
 };
 //Lots of circular definitions here unfortunately but it's required since the typedefs depend on eachother
-//-----------------------------------------------------------------------------------------------
+//--------------------------------------------------
 
 double Eval(Perceptron* self, double x[2]){ 
     return 1.0/(1.0+exp(-(x[0]*(self->w[0])+x[1]*(self->w[1])+(self->b))));
@@ -52,7 +52,7 @@ void Train (Perceptron* self, double data[4][2],double label[4]){
   }
 }
 //Method definitions
-//-----------------------------------------------------------------------------------------------
+//--------------------------------------------------
 
 void Init(Perceptron* p){
    p->w[0]=(double)(rand()%1000)/1000;
@@ -63,4 +63,4 @@ void Init(Perceptron* p){
    printf("Perceptron initialised\n");
 }
 //Init function to hook methods up to the struct as well as initialise its values
-//-----------------------------------------------------------------------------------------------
+//--------------------------------------------------
