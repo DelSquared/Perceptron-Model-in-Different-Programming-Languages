@@ -41,7 +41,7 @@ print("\nPre-Training:")
 for i in 0...3{
   print(p.Eval(x:x[i]))
 }
-print("\n")
+print()
 
 p.Train(data:x,labels:y)
 
