@@ -17,6 +17,7 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Lua
 - Rust
 - C
+- Swift
 
 ### Future additions:
 - Javascript(p5JS)
@@ -285,4 +286,30 @@ Post-Training
 0.016370
 0.016370
 0.980600
+```
+### Swift (4.2.1)
+```
+Pre-Training:
+0.5871688281141535
+0.6488127336921564
+0.7849738529623651
+0.8258421575372155
+
+Epochs(%): 0 ... Error: 0.3529676724506121
+Epochs(%): 10 ... Error: 0.005687036001512336
+Epochs(%): 20 ... Error: 0.002640473929544105
+Epochs(%): 30 ... Error: 0.001696162404866232
+Epochs(%): 40 ... Error: 0.0012430738240744982
+Epochs(%): 50 ... Error: 0.0009785707575491922
+Epochs(%): 60 ... Error: 0.0008057156923088166
+Epochs(%): 70 ... Error: 0.0006841279984251465
+Epochs(%): 80 ... Error: 0.0005940508381222067
+Epochs(%): 90 ... Error: 0.0005246967351030535
+Epochs(%): 100 ... Error: 0.0004696849220425556
+
+Post-Training:
+1.6569391297523873e-05
+0.02348413831843244
+0.023484183755364978
+0.9721481100388056
 ```
