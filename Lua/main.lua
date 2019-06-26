@@ -30,6 +30,18 @@ function Perceptron:Train (data,label,epochs,dt)
      
    end
 end
+function Perceptron:SaveWeights(filename)
+   local file = io.open(filename, "w")
+   file:write(self.w[1]..","..self.w[2]..","..self.b)
+   file:close()
+end
+function Perceptron:LoadWeights(filename)
+   local file = io.open(filename, "r")
+   io.input(file)
+   WeightString=io.read()
+   w1,w2,b = WeightString:match("([^,]+),([^,]+),([^,]+)")
+   self.w[1],self.w[2],self.b = tonumber(w1),tonumber(w2),tonumber(b)
+end
 
 -----------------------------------------------------------------------------------------------
 
