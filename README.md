@@ -24,6 +24,7 @@ The example being considered is an AND gate emulation. This can be switched out 
 - C#
 - C++/CUDA
 - LuaC++
+- Crystal
 
 ## Outputs
 
