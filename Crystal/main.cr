@@ -1,6 +1,3 @@
-#This code is not ready do not use it
-#There are still some minor bugs
-
 class Perceptron
   @w = [] of Float64
   @b : Float64
@@ -29,7 +26,7 @@ class Perceptron
       if i%500000==0
         err=0
         j=0
-        while j<3
+        while j<=3
           err+=(0.25*(label[j]-eval(data[j]))*(label[j]-eval(data[j])))
           j+=1
         end
@@ -37,7 +34,7 @@ class Perceptron
       end
 
       j=0
-      while j<3
+      while j<=3
         @w[0]+=(label[j]-eval(data[j]))*(eval(data[j])-eval(data[j])*eval(data[j]))*data[j][0]*dt
         @w[1]+=(label[j]-eval(data[j]))*(eval(data[j])-eval(data[j])*eval(data[j]))*data[j][1]*dt
         @b+=0.1*(label[j]-eval(data[j]))*(eval(data[j])-eval(data[j])*eval(data[j]))*dt
