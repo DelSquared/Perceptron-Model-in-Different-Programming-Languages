@@ -7,9 +7,8 @@ double Eval(double w[2], double b, double x[2]){
     return 1.0/(1.0+exp(-(x[0]*(w[0])+x[1]*(w[1])+(b))));
 }
 
-void Train ( double* w0,  double* w1, double* b, double data[][2], double label[], unsigned int epochs, double dt){
+void Train ( double* w0,  double* w1, double* b, double data[][2], double label[], unsigned int sizedata, unsigned int epochs, double dt){
   printf("Training initiated...\n");
-  unsigned int sizedata = (int)( sizeof(label) / sizeof(label[0]) );
   unsigned int i;
   unsigned short j;
   float delta;
@@ -32,7 +31,7 @@ void Train ( double* w0,  double* w1, double* b, double data[][2], double label[
       for(j=0;j<sizedata;j++){
         Error += E(Eval(w,*b,data[j]),label[j]);
       }
-      printf("Epochs(%): %f ... Error: %f\n",100.0*(double)i/(double)epochs,Error);
+      printf("Epochs(\%): %f ... Error: %f\n",100.0*(double)i/(double)epochs,Error);
     }
   }
 }
