@@ -9,6 +9,7 @@ The example being considered is an AND gate emulation. This can be switched out 
 
 ### Currently available languages:
 - Python(Numpy)
+- Python(Cython)
 - Python(Keras)
 - Python(Tensorflow)
 - Java
@@ -18,6 +19,8 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Rust
 - C
 - Swift
+- Crystal
+- Go
 
 ### Future additions:
 - Javascript(p5JS)
