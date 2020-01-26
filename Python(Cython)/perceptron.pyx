@@ -1,17 +1,15 @@
-#this is a semi-wrapper for the C perceptron example using mostly the same functions defined in that header file just tweaked.
-
 from libc.stdlib cimport rand
 cdef extern from "limits.h":
     int INT_MAX
 
 cdef extern from "perceptron.h":
     double Eval(double w[2], double b, double x[2])
-    void Train (double* w0, double* w1, double* b, double data[4][2], double label[4], unsigned int epochs, double dt)
+    void Train (double* w0, double* w1, double* b, double data[4][2], double label[4], unsigned int sizedata, unsigned int epochs, double dt)
 
 class perceptron:
     
     def __init__(self):
-        self.epochs = 10000000
+        self.epochs = 100000000
         self.dt = 0.01
         self.w = [rand() / float(INT_MAX), rand() / float(INT_MAX)]
         self.b = rand() / float(INT_MAX)
@@ -33,8 +31,6 @@ class perceptron:
         for i in [0,1,2,3]:
             _data[i][:] = [data[i][0],data[i][1]]
             _label[i] = label[i]
-        #print(w0,w1,b)
-        Train(&w0, &w1, &b, _data, _label, self.epochs, self.dt)
-        #print(w0,w1,b)
+        Train(&w0, &w1, &b, _data, _label, len(label), self.epochs, self.dt)
         self.w = [w0,w1]
         self.b = b
