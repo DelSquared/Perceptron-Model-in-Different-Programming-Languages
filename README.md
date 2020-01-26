@@ -13,21 +13,21 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Python(Keras)
 - Python(Tensorflow)
 - Java
+- C
 - Typescript
 - Javascript(NodeJS)
+- Go
 - Lua
 - Rust
-- C
-- Swift
 - Crystal
-- Go
+- Swift
 
 ### Future additions:
 - Javascript(p5JS)
 - C#
+- C++
 - C++/CUDA
 - LuaC++
-- Crystal
 
 ## Outputs
 
