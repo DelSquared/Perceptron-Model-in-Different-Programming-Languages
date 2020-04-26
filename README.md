@@ -14,6 +14,7 @@ The example being considered is an AND gate emulation. This can be switched out 
 - Python(Tensorflow)
 - Java
 - C
+- C++
 - Typescript
 - Javascript(NodeJS)
 - Go
@@ -25,7 +26,6 @@ The example being considered is an AND gate emulation. This can be switched out 
 ### Future additions:
 - Javascript(p5JS)
 - C#
-- C++
 - C++/CUDA
 - LuaC++
 
@@ -215,6 +215,33 @@ Post-Training
 0.016370
 0.016370
 0.980600
+```
+### C++
+```
+Pre-Training
+0.686348 
+0.764495 
+0.835248 
+0.88264 
+
+Training initiated...
+Epochs(%): 0 ... Error: 1.76658
+Epochs(%): 10 ... Error: 0.0105841
+Epochs(%): 20 ... Error: 0.00497742
+Epochs(%): 30 ... Error: 0.00322505
+Epochs(%): 40 ... Error: 0.0023774
+Epochs(%): 50 ... Error: 0.0018795
+Epochs(%): 60 ... Error: 0.00155254
+Epochs(%): 70 ... Error: 0.00132167
+Epochs(%): 80 ... Error: 0.00115009
+Epochs(%): 90 ... Error: 0.00101763
+
+
+Post-Training
+5.47956e-06 
+0.0163699 
+0.0163699 
+0.9806
 ```
 ### Typescript
 ```
